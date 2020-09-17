@@ -1,0 +1,69 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-09-16T17:07:32.148Z",
+        "line": 3,
+        "name": "To Test the Login Function of OrangeHrm",
+        "description": "",
+        "id": "to-test-the-orangehrm-application;to-test-the-login-function-of-orangehrm",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "To launch the browser and Navigate to the Url",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "To Enter Username and Password",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "To Click the Submit button",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "To Take the Screenshot and the Title",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "To Close the browser",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To Test the OrangeHrm Application",
+    "description": "",
+    "id": "to-test-the-orangehrm-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/TestCase.feature",
+    "tags": []
+  }
+]

@@ -1,0 +1,70 @@
+package seleniumlearning;
+
+import org.junit.AfterClass;
+import org.junit.BeforeClass;
+import org.junit.Test;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterSuite;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.BeforeTest;
+
+public class SampleTestcases {
+	 @Test
+	  public void testCase1() {
+		  System.out.println("TestCase1 : Login");
+	  }
+	  
+	  @Test
+	  public void testCase2() {
+		  System.out.println("TestCase2 : Search");
+	  }
+	  
+	  @Test
+	  public void testCase3() {
+		  System.out.println("TestCase3 : Logout");
+	  }
+	  
+	  @BeforeMethod
+	  public void beforeMethod() {
+		  System.out.println("Before Method : Launch App");
+	  }
+
+	  @AfterMethod
+	  public void afterMethod() {
+		  System.out.println("After Method : Close App");
+	  }
+
+	  @BeforeClass
+	  public static void beforeClass() {
+		  System.out.println("Before Class : Create TestData");
+	  }
+
+	  @AfterClass
+	  public static void afterClass() {
+		  System.out.println("After Class : Clear TestData");
+	  }
+
+	  @BeforeTest
+	  public void beforeTest() {
+		  System.out.println("Before Test : Smoke Testing");
+	  }
+
+	  @AfterTest
+	  public void afterTest() {
+		  System.out.println("After Test : Generate Reportes");
+	  }
+
+	  @BeforeSuite
+	  public void beforeSuite() {
+		  System.out.println("Before Suite : Dp Connection");
+	  }
+
+	  @AfterSuite
+	  public void afterSuite() {
+		  System.out.println("After Suite : Close Dp Connection");
+	  }
+
+
+}

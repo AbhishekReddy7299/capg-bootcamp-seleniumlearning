@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testng-results failed="0" passed="0" skipped="1" total="1">
+<suite duration-ms="594" name="io.cucumber.core.plugin.TestNGFormatter">
+<test duration-ms="594" name="io.cucumber.core.plugin.TestNGFormatter">
+<class name="To Test the OrangeHrm Application">
+<test-method duration-ms="0" finished-at="2020-09-16T17:07:32.349Z" name="To Test the Login Function of OrangeHrm" started-at="2020-09-16T17:07:32.148Z" status="SKIP"/>
+</class>
+</test>
+</suite>
+</testng-results>
